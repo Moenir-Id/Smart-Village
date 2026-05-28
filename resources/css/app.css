@@ -1,0 +1,17 @@
+/* Smart Village — minimal overrides di atas Bootstrap */
+:root {
+    --warna-primer:   #1a6b3a;
+    --warna-sekunder: #f0a500;
+}
+.btn-desa { background-color: var(--warna-primer); color: #fff; border: none; }
+.btn-desa:hover { opacity: .9; color: #fff; }
+.text-desa { color: var(--warna-primer); }
+.bg-desa   { background-color: var(--warna-primer); }
+.badge-pending  { background-color: #ffc107; color: #000; }
+.badge-diproses { background-color: #0d6efd; color: #fff; }
+.badge-selesai  { background-color: #198754; color: #fff; }
+.badge-ditolak  { background-color: #dc3545; color: #fff; }
+.timeline-dot { width:10px;height:10px;border-radius:50%;background:#dee2e6;flex-shrink:0;margin-top:5px; }
+.timeline-dot.active { background: var(--warna-primer); }
+.overdue-row { background-color: #fff5f5 !important; }
+.font-monospace { font-family: 'Courier New', monospace; }
